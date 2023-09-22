@@ -1,0 +1,117 @@
+body {
+    background-color: black;
+}
+
+header {
+    line-height: 0;
+    color: white;
+}
+
+#navDiv {
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+    width: 75%;
+    border-bottom: 2px solid blueviolet;
+    border-radius: 20rem;
+}
+
+#navDiv > hr {
+    color: blueviolet;
+}
+
+.albumButtons {
+    border: 2px solid blueviolet;;
+    border-radius: 20rem;
+    height: 10rem;
+    width: 10rem;
+    cursor: pointer;
+}
+
+.albumButtons > p {
+    border-radius: 20rem;
+    margin-top: 3rem;
+    text-align: center;
+    font-size: 1.8rem;
+    color: black;
+    text-shadow: purple 0rem 0rem .1rem;
+    background-color: rgba(255, 255, 255, 0.7);
+}
+
+#animalsAlbumButton {
+    background-image: url("docs/assets/animals2_thumb.jpg");
+    background-size: cover;
+}
+
+#animalsAlbumButton:hover > p {
+    margin: auto;
+    line-height: 5rem;
+}
+
+#carsAlbumButton {
+    background-image: url("docs/assets/cars1_thumb.jpg");
+    background-size: cover;
+}
+
+#carsAlbumButton:hover > p {
+    margin: auto;
+    line-height: 5rem;
+}
+
+#landscapesAlbumButton {
+    background-image: url("docs/assets/landscapes1_thumb.jpg");
+    background-size: cover;
+}
+
+#landscapesAlbumButton:hover > p {
+    margin: auto;
+    line-height: 5rem;
+}
+
+#imagesSection {
+    min-height: 70vh;
+    display: flex;
+    justify-content: center;
+}
+
+#thumbnailsDiv {
+    display: flex;
+    flex-flow: column;
+}
+    
+#thumbnailsDiv > img {
+    color: white;
+}
+
+#thumbnailsDiv > img:hover {
+ cursor: zoom-in;
+}
+
+#focusedImage {
+    display: flex;
+    flex-flow: column;
+}
+
+#removeImageButton {
+    display: none;
+    margin: auto;
+    border: 2px solid blueviolet;
+    border-radius: 20rem;
+    color: white;
+    background-color: black;
+    width: 50%;
+}
+
+#removeImageButton:hover {
+    background-color: white;
+    color: black;
+}
+
+footer {
+    margin-top: 2rem;
+}
+
+footer > p {
+    text-align: center;
+    color: white;
+}

@@ -1,0 +1,56 @@
+@media screen and (max-width: 600px) {
+    header {
+        font-size: small;
+    }
+
+    #navDiv {
+        width: 90%;
+        border-radius: 20rem;
+    }
+
+    .albumButtons {
+        height: 6rem;
+        width: 6rem;
+    }
+
+    .albumButtons > p {
+        margin-top: 1.5rem;
+        font-size: 1.2rem;
+    }
+
+    #animalsAlbumButton:hover > p {
+        line-height: 3rem;
+    }
+
+    #carsAlbumButton:hover > p {
+        line-height: 3rem;
+    }
+
+    #landscapesAlbumButton:hover > p {
+        line-height: 3rem;
+    }
+
+    #imagesSection {
+        display: flex;
+        flex-flow: column;
+    }
+
+    #thumbnailsDiv {
+        display: flex;
+        flex-flow: row;
+        overflow-x: scroll;
+        scroll-behavior: smooth;
+        scrollbar-color: blueviolet black;
+    }
+
+    #focusedImage {
+        padding-bottom: .5rem;
+        overflow-x: scroll;
+        scroll-behavior: smooth;
+        scrollbar-color: blueviolet black;
+    }
+
+    #removeImageButton {
+        width: 80%;
+    }
+}

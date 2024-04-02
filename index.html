@@ -1,45 +1,76 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="pictureAlbum.css">
-    <link rel="stylesheet" href="pictureAlbumResponsive.css">
-    <script src="pictureAlbum.js"></script>
-    <title>Picture album</title>
-</head>
-<body>
-<div id="pageContent">
-<header>
-    <h1>Picture Album</h1>
-    <h2>by Jjo</h2>
-</header>
-<main>
-    <nav id="navDiv">
-        <div class="albumButtons" id="animalsAlbumButton">
-            <p>Animals<br> Album</p>
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="pictureAlbum.css" />
+        <link rel="stylesheet" href="pictureAlbumResponsive.css" />
+        <script src="pictureAlbum.js"></script>
+        <title>Picture album</title>
+    </head>
+    <body>
+        <div id="pageContent">
+            <header>
+                <div id="header_stencil_main">
+                    <div id="header_stencil_titleAndSignature">
+                        <h1 id="header_stencil_title">
+                            Picture
+                            <br />
+                            Album
+                        </h1>
+                        <p id="header_stencil_signature">
+                            by
+                            <br />
+                            Jjo
+                        </p>
+                    </div>
+                    <div id="header_stencil_borders">
+                        <h1 id="header_stencil_border1"></h1>
+                        <h1 id="header_stencil_border2"></h1>
+                        <h1 id="header_stencil_border3"></h1>
+                    </div>
+                </div>
+            </header>
+            <main>
+                <nav id="navDiv">
+                    <div class="albumButtons" id="animalsAlbumButton">
+                        <p>
+                            Animals
+                            <br />
+                            Album
+                        </p>
+                    </div>
+                    <hr />
+                    <div class="albumButtons" id="carsAlbumButton">
+                        <p>
+                            Cars
+                            <br />
+                            Album
+                        </p>
+                    </div>
+                    <hr />
+                    <div class="albumButtons" id="landscapesAlbumButton">
+                        <p>
+                            Landscapes
+                            <br />
+                            Album
+                        </p>
+                    </div>
+                </nav>
+                <section id="imagesSection">
+                    <div id="thumbnailsDiv"></div>
+                    <div id="focusedImage">
+                        <div id="selectedDiv"></div>
+                        <button id="removeImageButton">
+                            Remove this picture from the album
+                        </button>
+                    </div>
+                </section>
+            </main>
+            <footer>
+                <p>&#169;Majjix</p>
+            </footer>
         </div>
-        <hr>
-        <div class="albumButtons" id="carsAlbumButton">
-            <p>Cars<br> Album</p>
-        </div>
-        <hr>
-        <div class="albumButtons" id="landscapesAlbumButton">
-            <p>Landscapes<br> Album</p>
-        </div>
-    </nav>
-    <section id="imagesSection">
-        <div id="thumbnailsDiv"></div>
-        <div id="focusedImage">
-        <div id="selectedDiv"></div>
-            <button id="removeImageButton">Remove this picture from the album</button>
-        </div>
-    </section>
-</main>
-<footer>
-    <p>&#169;Majjix</p>
-</footer>
-</div>
-</body>
+    </body>
 </html>

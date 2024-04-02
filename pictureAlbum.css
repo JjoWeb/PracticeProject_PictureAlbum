@@ -12,7 +12,6 @@ BEGINING CUSTOM HEADER STENCIL SECTION
 #header_stencil_titleAndSignature {
     border: solid black;
     border-radius: 0% 0% 100% 0%;
-    margin-bottom: -4rem;
     background-color: rgb(255, 255, 255);
     font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
 }
@@ -47,6 +46,8 @@ BEGINING CUSTOM HEADER STENCIL SECTION
 
 #header_stencil_borders > * {
     width: 2rem;
+    margin-left: 4rem;
+    margin-top: -3.8rem;
 }
 
 #header_stencil_border1 {

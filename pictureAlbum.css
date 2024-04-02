@@ -3,7 +3,7 @@ body {
 }
 
 /*
-BEGINING CUSTOM HEADER STENCIL SECTION
+BEGINNING CUSTOM HEADER STENCIL SECTION
 */
 #header_stencil_main {
     width: 12.5rem;
@@ -41,13 +41,12 @@ BEGINING CUSTOM HEADER STENCIL SECTION
 
 #header_stencil_borders {
     width: 40%;
-    margin-left: 3.7rem;
+    margin-left: 4rem;
+    margin-top: -3.8rem;
 }
 
 #header_stencil_borders > * {
     width: 2rem;
-    margin-left: 4rem;
-    margin-top: -3.8rem;
 }
 
 #header_stencil_border1 {

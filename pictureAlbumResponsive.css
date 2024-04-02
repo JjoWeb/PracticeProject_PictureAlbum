@@ -1,8 +1,4 @@
 @media screen and (max-width: 600px) {
-    header {
-        font-size: small;
-    }
-
     #navDiv {
         width: 90%;
         border-radius: 20rem;
